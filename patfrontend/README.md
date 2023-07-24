@@ -1,4 +1,3 @@
-## Backend for this project can be found at [PAT Index Backend](https://github.com/pragyamahajan/PAT-Index-backend)
 
 ### Available Scripts
 In the project directory, you can run:
