@@ -13,7 +13,7 @@ function ShowResult() {
   const handleHTnum = () => {
     const formData = new FormData();
     formData.append("htnum", htnum);
-    fetch(`http://localhost:5000/studentresults?htnum=${htnum}`)
+    fetch(`https://patindex.onrender.com/studentresults?htnum=${htnum}`)
       .then((res) => {
         return res.json();
       })

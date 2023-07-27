@@ -11,7 +11,7 @@ function Login() {
     const formData = new FormData()
     formData.append("userId", userid)
     formData.append("password", password)
-    fetch("http://localhost:5000/login", {
+    fetch("https://patindex.onrender.com/login", {
       method: "POST",
       body: formData,
     }).then(res => res.json())
