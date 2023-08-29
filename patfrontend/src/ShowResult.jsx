@@ -63,7 +63,7 @@ function ShowResult() {
               <th>S.no</th>
               <th>Criteria</th>
               <th>Your Score</th>
-              <th>College Average</th>
+              {/* <th>College Average</th> */}
             </tr>
           </thead>
           <tbody>
@@ -77,9 +77,9 @@ function ShowResult() {
                   ? studata.cgpa.split(",")[0]
                   : null}
               </td>
-              <td>
+              {/* <td>
                 {avg_cgpa}
-              </td>
+              </td> */}
             </tr>
             <tr>
               <td>2</td>
@@ -91,9 +91,9 @@ function ShowResult() {
                   ? studata.proj.split(",")[0]
                   : null}
               </td>
-              <td>
+              {/* <td>
                 {avg_proj}
-              </td>
+              </td> */}
             </tr>
             <tr>
               <td>3</td>
@@ -105,9 +105,9 @@ function ShowResult() {
                   ? studata.intern.split(",")[0]
                   : null}
               </td>
-              <td>
+              {/* <td>
                 {avg_intern}
-              </td>
+              </td> */}
             </tr>
             <tr>
               <td>4</td>
@@ -119,9 +119,9 @@ function ShowResult() {
                   ? studata.leet.split(",")[0]
                   : null}
               </td>
-              <td>
+              {/* <td>
                 {avg_leet}
-              </td>
+              </td> */}
             </tr>
             <tr>
 
